@@ -2,6 +2,9 @@
 Django Site Status
 =====
 
+.. image:: https://badge.fury.io/py/django-site-status.png
+    :target: http://badge.fury.io/py/django-site-status
+
 Django Site Status is a simple Django app to display time based statuses to your users.
 
 Detailed documentation is in the "docs" directory.
