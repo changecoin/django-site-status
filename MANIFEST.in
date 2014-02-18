@@ -1,5 +1,5 @@
 include LICENSE
-include README.rst
-recursive-include status/static *
-recursive-include status/templates *
-recursive-include status/docs *
+include README.md
+recursive-include site_status/static *
+recursive-include site_status/templates *
+recursive-include site_status/docs *
