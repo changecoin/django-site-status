@@ -1,0 +1,6 @@
+# packaging
+dist/
+django_site_status.egg-info/
+
+# jetbrains
+.idea/
