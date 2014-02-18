@@ -1,4 +1,5 @@
 from datetime import datetime
+
 from site_status import models
 
 
@@ -8,6 +9,7 @@ def get_statuses():
     statuses = models.Status.objects.all()\
         .filter(start_time__lt=current_datetime)\
         .filter(end_time__gt=current_datetime)
+
     return statuses
 
 

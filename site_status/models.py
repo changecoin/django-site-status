@@ -2,13 +2,13 @@ from django.db import models
 
 
 class Status(models.Model):
-    DEBUG = 0
+    POSITIVE = 0
     INFO = 1
     WARNING = 2
     ERROR = 3
     CRITICAL = 4
     LEVELS = (
-        (DEBUG, "Debug"),
+        (POSITIVE, "Positive"),
         (INFO, "Info"),
         (WARNING, "Warning"),
         (ERROR, "Error"),
